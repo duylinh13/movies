@@ -1,0 +1,41 @@
+.section-title{
+    margin-top:10px;
+    font-size: 20px;
+    color:rgb(181 181 181);
+    
+}
+.movie-list{
+    margin-top:10px;
+}
+.movie-card-wrapper {
+    position: relative;
+  }
+  .button-wrapper {
+    position: absolute;
+    top: 10px; /* Điều chỉnh giá trị top tùy theo vị trí mong muốn */
+    right: 10px; /* Điều chỉnh giá trị right tùy theo vị trí mong muốn */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .movie-card-wrapper:hover .button-wrapper {
+    opacity: 1;
+  }
+  .buttonfavorite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s; /* Thêm thuộc tính transform vào transition */
+  }
+  
+  .buttonfavorite:hover {
+    color: #ffcc00;
+    transform: scale(1.2); /* Kích thước ngôi sao tăng lên 20% */
+  }

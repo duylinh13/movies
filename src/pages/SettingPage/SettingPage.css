@@ -1,0 +1,74 @@
+/* Global styles */
+/* body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+} */
+
+/* Main content styles */
+.setting-page {
+  border-radius: 8px;
+  padding: 30px;
+  padding-right: 500px;
+  padding-left: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: rgb(229, 220, 220);
+}
+
+.setting-group {
+  margin-bottom: 20px;
+}
+
+.setting-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.setting-option label {
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.setting-option input[type="checkbox"],
+.setting-option input[type="radio"] {
+  margin-right: 5px;
+}
+
+.setting-option select,
+.setting-option input[type="text"],
+.setting-option textarea {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.setting-option textarea {
+  resize: vertical;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #41d762;
+}
